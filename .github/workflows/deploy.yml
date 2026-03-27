@@ -24,8 +24,10 @@ jobs:
        
     - name: Run tests
       run: npm test
-    # - name: Lint code
-    #   run: npx eslint *.js
+
+    - name: Lint code
+      run: npx eslint *.js
+      
     - name: Build (mock)
       run: echo "Сборка завершена"
     
