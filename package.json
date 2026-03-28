@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo 'Тесты прошли!' && node -e \"console.log('Unit test OK')\""
+  },
+  "devDependencies": {
+    "eslint": "^10.1.0"
   }
 }
